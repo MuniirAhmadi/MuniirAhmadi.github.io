@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/base/',
   title: "My Portfolio",
   description: "My Portfolio",
   themeConfig: {
@@ -20,6 +21,7 @@ export default defineConfig({
         ]
       }
     ],
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
