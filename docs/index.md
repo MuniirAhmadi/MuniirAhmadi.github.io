@@ -3,16 +3,17 @@
 layout: home
 
 hero:
-  name: "A70K"
-  text: "My Portfolio"
+  name: "Muniir Ahmadi"
+  text: "A70K"
   tagline: Explore my works, favourite resources, and blog posts
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Resources
+      link: /guide/resources
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: CTF
+      link: /ctf/newbie
+
 
 features:
   - title: Feature A
