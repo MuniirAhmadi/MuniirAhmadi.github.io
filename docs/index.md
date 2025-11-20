@@ -13,16 +13,16 @@ hero:
     - theme: alt
       text: Blogs
       link: /blog/introduction
-    - theme: alt
-      text: Guides
-      link: /examples/api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: CTF
+    details: Learn cybersecurity through Capture The Flag challenges, tutorials, and hands-on labs.
+    link: /resources/ctf
+  - title: Development & Coding
+    details: Resources for learning to code, practicing with challenges, and building projects.
+    link: /resources/development
+  - title: Cybersecurity Hub
+    details: A  directory for security advisories, industry news, community forums, and major conferences to stay informed on cyber threats and trends.
+    link: /resources/information
 ---
 

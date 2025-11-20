@@ -2,29 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Portfolio",
-  description: "My Portfolio site",
+  title: "A7OK",
+  description: "Portfolio site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Resources', link: '/resources/osint' },
-      { text: 'Blogs', link: '/blog/introduction' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: 'Blogs', link: '/blog/introduction' }
     ],
 
     sidebar: {
-      '/examples/': [
-        {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-          { text: 'Resources Guide', link: '/examples/resources-guide' },
-          { text: 'Runtime API Examples', link: '/examples/api-examples' }
-        ]
-      }
-      ],
-
       '/blog/': [
         {
         text: 'Blog',
@@ -38,21 +26,29 @@ export default defineConfig({
         {
           text: 'Resources',
           items: [
-            { text: 'OSINT', link: '/resources/osint' }
+            { text: 'OSINT', link: '/resources/osint' },
+            { text: 'Development', link: '/resources/development' },
+            { text: 'Forensic', link: '/resources/forensic' },
+            { text: 'ML & AI', link: '/resources/ml-ai' },
+            { text: 'Cryptography', link: '/resources/cryptography' }
           ]
         },
         {
           text: 'Cybersecurity',
           items: [
             { text: 'Tools', link: '/resources/tools' },
-            { text: 'Penetration Testing', link: '/resources/pentest' }
+            { text: 'Penetration Testing', link: '/resources/pentest' },
+            { text: 'Malware Analysis', link: '/resources/malware-analysis' },
+            { text: 'CTF', link: '/resources/ctf' },
+            { text: 'Information', link: '/resources/information' }
           ]
         }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/MuniirAhmadi' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/muniirahmadi' }
     ]
   }
 })
