@@ -9,10 +9,21 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Resources', link: '/resources/osint' },
+      { text: 'Writeups', link: '/writeup/CSLU' },
       { text: 'Blogs', link: '/blog/introduction' }
     ],
 
     sidebar: {
+      '/writeup/': [
+        {
+        text: 'Writeups',
+        items: [
+          { text: 'CSLU', link: '/writeup/CSLU' },
+          { text: 'CurtinCTF2025', link: '/writeup/curtin2025' }
+        ]
+      }
+      ],
+
       '/blog/': [
         {
         text: 'Blog',
@@ -37,10 +48,17 @@ export default defineConfig({
           text: 'Cybersecurity',
           items: [
             { text: 'Tools', link: '/resources/tools' },
+            { text: 'Control, Framework & Compliance', link: '/resources/cfc' },
             { text: 'Penetration Testing', link: '/resources/pentest' },
             { text: 'Malware Analysis', link: '/resources/malware-analysis' },
             { text: 'CTF', link: '/resources/ctf' },
             { text: 'Information', link: '/resources/information' }
+          ]
+        },
+        {
+          text: 'From Courses and Learning',
+          items: [
+            { text: 'Google Cybersecurity', link: '/resources/google-cybersecurity' },
           ]
         }
       ]

@@ -11,10 +11,16 @@ hero:
       text: Resources
       link: /resources/osint
     - theme: alt
+      text: Writeups
+      link: /writeup/cslu
+    - theme: alt
       text: Blogs
       link: /blog/introduction
 
 features:
+  - title: Writeup
+    details: Writeups of challenges solved in various Capture The Flag (CTF) competitions.
+    link: /writeup/cslu
   - title: CTF
     details: Learn cybersecurity through Capture The Flag challenges, tutorials, and hands-on labs.
     link: /resources/ctf

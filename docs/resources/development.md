@@ -3,6 +3,9 @@ outline: deep
 ---
 
 # Development
+## Misc
+- **Google Developer Groups** - <https://gdg.community.dev/>
+- **VitePress** - <https://vitepress.dev/>
 
 ## Challenge
 - **CodePen Challenges** - <https://codepen.io/challenges>
@@ -57,7 +60,6 @@ outline: deep
 - **Google Fonts** - <https://fonts.google.com/icons>
 - **CodePen: Online Code Editor** - <https://codepen.io/>
 - **DEV Community** - <https://dev.to/>
-- **Google Developer Groups** - <https://gdg.community.dev/>
 - **Awwwards - Sites Of The Day** - <https://www.awwwards.com/websites/sites_of_the_day/>
 
 ## Idea

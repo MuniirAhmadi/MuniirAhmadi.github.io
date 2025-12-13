@@ -67,6 +67,7 @@ outline: deep
 - **TechTarget** - <https://www.techtarget.com>
 - **Cynet** - <https://www.cynet.com/>
 - **OffSec** - <https://www.offsec.com/>
+- **[💾](https://www.youtube.com/channel/UCexu0DP7VKdDByusuTA53FQ) Mandiant: Threat Intelligence Solutions** - <https://www.mandiant.com/>
 - **Stay ahead of the curve with Feedly AI** - <https://feedly.com/i>
 
 ## Books
