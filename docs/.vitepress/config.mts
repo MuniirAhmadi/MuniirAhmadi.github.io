@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Resources', link: '/resources/osint' },
-      { text: 'Writeups', link: '/writeup/CSLU' },
+      { text: 'Writeups', link: '/writeup/cslu' },
       { text: 'Blogs', link: '/blog/introduction' }
     ],
 
@@ -18,7 +18,7 @@ export default defineConfig({
         {
         text: 'Writeups',
         items: [
-          { text: 'CSLU', link: '/writeup/CSLU' },
+          { text: 'CSLU', link: '/writeup/cslu' },
           { text: 'CurtinCTF2025', link: '/writeup/curtin2025' }
         ]
       }

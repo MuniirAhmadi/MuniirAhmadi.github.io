@@ -2,13 +2,15 @@
 outline: deep
 ---
 # Cyber Skills Level-Up 
+- Date: December 28, 2024 → December 29, 2024
+
 ## PWN warm up
-    - Challenge Name: PWN warm up
-    - Category: PWN
+- Challenge Name: PWN warm up
+- Category: PWN
 
 This challenge involves a binary vulnerable to format string exploitation. The binary loads a `flag` file into memory before handling user input, which is directly printed using a format string vulnerability.
 
-### Source Code Analysis
+### Analysis
 
 Here is the source code for the binary (chall.c):
 
@@ -59,10 +61,7 @@ int main()
 - **Format String Vulnerability**: The `printf(buffer);` call in the `vuln()` function directly prints user input without specifying a format string. This allows attackers to exploit format string specifiers like `%p` to leak memory addresses or other sensitive data.
 - **Flag Handling**: The `flag` is read into a stack buffer (`flag[16]`) before user input is processed. This means the flag resides in memory and can potentially be leaked through the vulnerability.
 
-### Exploitation Steps
-
-#### Step 1: Confirm Format String Vulnerability
-
+### Flag Retrieval Steps
 To test the format string vulnerability, initially, an error occurs due to the absence of the `flag` file:
 
 ```bash
@@ -89,9 +88,6 @@ Running the binary and providing `%p` as input confirms the vulnerability:
 Input: %p %p %p %p %p
 Your input is: 0x7ffe02d61b60 (nil) (nil) 0x1 (nil)
 ```
-
-#### Step 2: Find Format String Offset
-
 To determine the correct offset for the format string vulnerability, a script (`findOffset.sh`) can be used:
 
 ```bash
@@ -112,8 +108,6 @@ Input: Your input is: Offset 6 : 0x47414c46 u give input, i print out your input
 ```
 
 The result shows the flag's hex representation (e.g., `47414c46` for `FLAG`, reversed due to little-endianness). The first 8 bytes of the flag are at offset 6, and the next 8 bytes are at offset 7.
-
-#### Step 3: Leak the Full Flag
 
 Using the determined offsets, the full flag can be reconstructed. For example:
 

@@ -2,9 +2,11 @@
 outline: deep
 ---
 # Curtin 2025
+- Date: December 6, 2025 → December 7, 2025
+
 ## EZ
-    - Challenge Name: EZ
-    - Category: Reverse Engineering
+- Challenge Name: EZ
+- Category: Reverse Engineering
 
 
 ### Analysis
