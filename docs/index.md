@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Muniir Ahmadi"
   text: "A7OK"
-  tagline: My great project tagline
+  tagline: Documenting the journey through cybersecurity, one byte at a time
   actions:
   - theme: brand
     text: Resources
@@ -16,6 +16,9 @@ hero:
   - theme: alt
     text: Blogs
     link: /blog/introduction
+  - theme: alt
+    text: Notes
+    link: /note/introduction
 
 features:
   - title: Writeup

@@ -33,12 +33,22 @@ export default defineConfig({
       }
       ],
 
+      '/note/': [
+        {
+        text: 'Note',
+        items: [
+          { text: 'Introduction', link: '/note/introduction' },
+          { text: 'Introduction to OSINT', link: '/note/introduction-of-osint' }
+        ]
+      }
+      ],
+
       '/resources/': [
         {
           text: 'Resources',
           items: [
-            { text: 'Learning Platforms', link: '/resources/learning-platform' },
             { text: 'OSINT', link: '/resources/osint' },
+            { text: 'Learning Platforms', link: '/resources/learning-platform' },
             { text: 'Development', link: '/resources/development' },
             { text: 'Forensic', link: '/resources/forensic' },
             { text: 'ML & AI', link: '/resources/ml-ai' },
